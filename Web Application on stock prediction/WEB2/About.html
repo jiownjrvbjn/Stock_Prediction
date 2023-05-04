@@ -1,0 +1,90 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Prediction Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/fbe29e00d9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">INFORMATION</a></li>
+            <li><a href="course.html">PREDICTIONS</a></li>
+            <li><a href="blog.html">INFLATION AND RECESSION</a></li>
+            <li><a href="contact.html">INDEXS AND SOFTWARE USED</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Predictionary Models</h1>
+    </section>
+    <!-- About Us Content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>What is Indexs and How are we using it to make a prediction for inflation and recession</h1>
+          <p>
+            An index is a method to track the performance of a group of assets in a standardized way.
+            Indexes typically measure the performance of a basket of securities intended to replicate a certain area of the market.
+            So basically we are using top indexes of a coutry like Nifty or 
+            Nasdaq 100 which have the leading stocks of that particular economy and represent the size 
+            and the well being of the economy which we use to take out the
+             inlfation rates and calculate the recession chances.
+          </p>
+          <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="images/Nasdaq.png">
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About US</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
+        molestias iste accusantium aspernatur exercitationem quidem nam corrupti
+        <br />
+        consectetur est blanditiis autem necessitatibus dolores saepe et
+        quisquam excepturi maxime illum. Ut?
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> by Team 138</p>
+    </section>
+    <!-- ----JavaScript for Toggle Menu---- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
