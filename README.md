@@ -9,3 +9,8 @@ matplotlib.pyplot
 pandas_datareader 
 from keras.models import load_model 
 streamlit
+
+Note: 
+I have created a data training model using python jupyter. saved in lstm model.
+Thereby the trained model is saved in keras_model.h5
+To run the model you need to run streamlin with pupu.py file. Which is used to showcase the prediction on website using streamlit command " streamlit run pupu.py " on cmd.
