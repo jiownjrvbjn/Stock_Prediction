@@ -13,4 +13,4 @@ streamlit
 Note: 
 I have created a data training model using python jupyter, saved in lstm model.
 Thereby the trained model is saved in keras_model.h5 .
-To run the model you need to run streamlit with pupu.py file. Which is used to showcase the prediction on website using streamlit command " streamlit run pupu.py " on windows terminal with all the files saved in one folder and that olders address is neded as the directory to run the command.
+To run the model you need to run streamlit with pupu.py file. Which is used to showcase the prediction on website using streamlit command " streamlit run pupu.py " on windows terminal with all the files saved in one folder and that folders address is needed as the reference directory to run the command.
